@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;  
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: rgba(154, 204, 222, .49);
+  height: 25px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main-view {
+  float: right;
+  height: calc(100% - 50px);
+  width: 90%;
+}
+
+.left-panel {
+  background-color: rgba(230, 141, 60, .24);
+  float: right;
+  height: calc(100% - 50px);
+  width: 10%;
+}
+
+.footer {
+  background-color: rgba(154, 204, 222, .49);
+  clear: both;
+  height: 25px;
+  width: 100%;
+}
